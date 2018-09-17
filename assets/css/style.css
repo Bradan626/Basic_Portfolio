@@ -1,0 +1,38 @@
+.head {
+    background-color: #4aaaa5;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin: 20px;
+}
+
+.head-right {
+    background-color: #4aaaa5;
+    width: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: right;
+
+}
+
+a:link,
+a:visited {
+    background-color: white;
+    color: white;
+    padding: 14px 25px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover,
+a:active {
+    background-color: #4aaaa5;
+}
+
+.am {
+    color: #777777;
+}
+
+.img {
+    float: left;
+}
