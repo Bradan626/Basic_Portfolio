@@ -1,25 +1,51 @@
+.hb {
+    position: relative;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid grey;
+
+}
+
 .head {
+    position: absolute;
     background-color: #4aaaa5;
-    width: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
-    margin: 20px;
+    left: 216px;
+    height: 80px;
 }
 
 .head-right {
-    background-color: #4aaaa5;
-    width: auto;
+    margin: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    float: right;
+    position: absolute;
+    right: 216px;
+    display: inline-block;
+}
 
+.bb {
+    background: white;
+    width: 960px;
+    position: relative;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid grey;
+    height: 100;
+
+}
+
+p {
+
+    color: #777777;
 }
 
 a:link,
 a:visited {
     background-color: white;
-    color: white;
-    padding: 14px 25px;
-    text-align: right;
+    color: #777777;
+    padding: 20px;
+    text-align: center;
     text-decoration: none;
     display: inline-block;
 }
@@ -33,6 +59,11 @@ a:active {
     color: #777777;
 }
 
+.clearfix {
+    overflow: auto;
+}
+
 .img {
     float: left;
+    overflow: auto;
 }
