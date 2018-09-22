@@ -12,7 +12,7 @@
     color: #777777;
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    left: 434px;
+    left: 415px;
     height: 80px;
 }
 
@@ -20,7 +20,7 @@
     margin: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    right: 430px;
+    right: 415px;
     display: inline-block;
 }
 
@@ -38,7 +38,7 @@ body {
     margin-right: auto;
     border: 1px solid grey;
     height: 100;
-    padding:20px;
+    padding: 20px;
 
 }
 
@@ -74,4 +74,32 @@ a:active {
 
 .img {
     float: left;
+    padding: 15px;
+}
+
+#message {
+    height: 200px;
+    width: 940px;
+}
+
+#ibut {
+    color: #4aaaa5;
+    width: 175px;
+    height: 175px;
+    border: 0;
+}
+
+.container {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4aaaa5;
+    color: #777777;
+    padding-left: 30px;
+    padding-right: 45px;
 }
