@@ -1,4 +1,6 @@
-html {
+
+/* OLD CSS */
+/* html {
   min-height: 100%;
   position: relative;
 }
@@ -34,7 +36,7 @@ hr {
 }
 
 .navbar {
-  background-color: #ffffff;
+  background-color: darkorange;
   color: #777777;
   margin-bottom: 30px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -114,4 +116,71 @@ hr {
   margin-top: 10px;
   overflow: auto;
   background: #fff;
+} */
+
+/* /////////////////////////////////////////////////////////////////// */
+body {
+  background-color: #00293b;
+  color: rgba(255, 255, 255, 0.8);
 }
+
+h1,
+h4 {
+  color: darkorange;
+}
+
+h3 {
+  font-size: 1.4em;
+  letter-spacing: 0.04em;
+}
+
+#landing {
+  height: 100vh;
+  background-image: url("../images/champloo.jpeg");
+  background-position: center;
+  background-size: cover;
+  
+}
+#footer {
+  font-style: italic;
+}
+
+#mainText {
+  margin-top: 30vh;
+}
+
+#intro {
+  margin-top: 50px;
+}
+
+#contact {
+  background-color: #00293b;
+}
+
+#p1 {
+  height: 350px;
+}
+
+.b-expertise {
+  border-radius: 6px;
+}
+
+
+/* #b-email-phone {
+  line-height: 1.9em;
+}
+
+#b-email-phone a:hover {
+  text-decoration: underline;
+}
+
+#b-follow-me div:hover {
+  transform: scale(1.05);
+}
+
+#b-follow-me svg {
+  fill: var(--color-cyan-darken-2);
+  width: 1em;
+  height: 1em;
+  margin-top: 0.1em;
+} */
